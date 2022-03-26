@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 5px;
+  background: #212121;
+}
+
+.left {
+  height: 10vh;
+  width: 100%;
+}
+
+.left img {
+  display: none;
+}
+
+.login-form {
+  width: 90%;
+  padding: 50px 60px 50px 60px;
+  background-color: #fffafa;
+  border-radius: 10px;
+  margin-top: -30px;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 600;
+}
+
+.btn-prim {
+  width: 100%;
+  padding: 10px 25px 10px 25px !important;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #212121;
+  color: #fffafa !important;
+}
+
+.btn-prim:hover {
+  background-color: #212121 !important;
+}
+
+.form-login a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 600;
+}
+
+.input-group input[type="text"] {
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid #b6b5b5;
+  margin-top: 5px;
+}
+
+.input-group input[type="password"] {
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid #b6b5b5;
+  margin-top: 5px;
+}
+
+.rememberme input {
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #fffafa;
+    padding: 0;
+  }
+
+  .right {
+    background-color: #212121;
+  }
+
+  .left, .right {
+    height: 100vh;
+  }
+
+  .left img {
+    display: block;
+  }
+
+  .login-form {
+    width: 80%;
+    padding: 40px 60px 20px 60px;
+    background-color: #fffafa;
+    border-radius: 10px;
+    margin-top: 0;
+  }
+
+  .login-form a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #212121;
+  }
+
+  .login-form h3 {
+    font-weight: 800;
+  }
+
+  .btn-prim {
+    width: 100%;
+    padding: 12px 25px 10px 25px !important;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #212121;
+    color: #fffafa !important;
+    height: 52px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-prim:hover {
+    background-color: #212121 !important;
+  }
+
+  .form-login a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 600;
+  }
+
+  .input-group input[type="text"] {
+    height: 52px;
+    border-radius: 10px;
+    border: 1px solid #b6b5b5;
+    margin-top: 5px;
+  }
+
+  .input-group input[type="password"] {
+    height: 52px;
+    border-radius: 10px;
+    border: 1px solid #b6b5b5;
+    margin-top: 5px;
+  }
+
+  .rememberme input {
+    margin-right: 8px;
+  }
+}
